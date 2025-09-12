@@ -1,0 +1,214 @@
+(footprint "Buzzer_9x9.5RM5.0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Generic Buzzer, D12mm height 9.5mm with RM7.6mm")
+	(tags "buzzer")
+	(property "Reference" "BZ1"
+		(at -0.109837 -4.46875 270)
+		(layer "F.SilkS")
+		(uuid "abdd4d6b-44fd-4091-bca6-5e2b547a33dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Buzzer"
+		(at 3.8 7.4 270)
+		(layer "F.Fab")
+		(uuid "7ccd069e-d16e-43a7-b4fc-23441290a634")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811141138_Jiangsu-Huaneng-Elec-HNB09A05_C96493.pdf"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd1965d7-07fe-4e04-88fb-12838cb5f430")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Buzzer, polarized"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89a4c102-6aa4-404f-b878-09c4353f661a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C96493"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b4b1600-01d9-4633-908b-d08be5704951")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" ""
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0417125-2044-4379-ba48-6d8a5520f785")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ced06996-f6ff-4045-9869-470d00f62e97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Silkscreen" ""
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f6a96cf-8f20-4447-98d9-e1c9cb70f092")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 3.8 0)
+		(end 8.4 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7dbfe52f-5e9d-4edc-8c8f-c9a2ee4eeb53")
+	)
+	(fp_circle
+		(center 3.8 0)
+		(end 8.55 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ecbaba4e-24a6-43e5-84ef-875728bef675")
+	)
+	(fp_circle
+		(center 3.8 0)
+		(end 4.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "035baacd-4b6c-4bf5-b51d-3002db170429")
+	)
+	(fp_circle
+		(center 3.8 0)
+		(end 8.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6bb4b27f-996b-4bab-82e8-d7206e4e4623")
+	)
+	(fp_text user "+"
+		(at -0.709837 -2.76875 180)
+		(layer "F.SilkS")
+		(uuid "2b3fdba4-c699-40c5-a64e-51aafa292b43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -0.01 -2.54 180)
+		(layer "F.Fab")
+		(uuid "20a13414-f2c6-4fcd-86b3-941c26b79d64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.8 -4 180)
+		(layer "F.Fab")
+		(uuid "55976e05-fc76-495b-96c0-87c078d7afd7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 1.25 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9f599400-89fe-48d3-b03b-6efa82448104")
+	)
+	(pad "2" thru_hole circle
+		(at 6.25 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1d52aaab-c17b-4fc3-9172-85f29cd88d93")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/Buzzer_12x9.5RM7.6.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
