@@ -1197,10 +1197,9 @@
 		(uuid "8fc59b68-b281-4cfc-9952-97166aad23a9")
 	)
 	(embedded_fonts no)
-	(model "/home/dan/dnt.kicad.libs/sources/WAGO_26011112-2/2601-1112.stp"
-		(opacity 0.5800)
+	(model "/home/dan/dnt.kicad.libs/sources/WAGO_26011112 (1)/STEP-2.14/2601-1112.stp"
 		(offset
-			(xyz 39.55 -5 0)
+			(xyz 39.5 -5 0)
 		)
 		(scale
 			(xyz 1 1 1)
