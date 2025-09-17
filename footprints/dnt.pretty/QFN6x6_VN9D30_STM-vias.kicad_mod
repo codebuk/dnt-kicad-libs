@@ -1,4 +1,4 @@
-(footprint "QFN6x6_VN9D30_STM"
+(footprint "QFN6x6_VN9D30_STM-vias"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "QFN6x6_VN9D30_STM"
+	(property "Value" "QFN6x6_VN9D30_STM-vias"
 		(at 0.45 -5.45 0)
 		(unlocked yes)
 		(layer "F.Fab")
