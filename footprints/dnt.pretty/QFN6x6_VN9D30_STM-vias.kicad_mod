@@ -8,7 +8,7 @@
 		(at 1.05 6.65 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "8d1e45c9-3e38-4a51-a797-8dc5f1a6758c")
+		(uuid "72e3a0ca-cf1e-4258-862e-1845f89be012")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0.45 -5.45 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "470006ff-555f-4cb0-b61c-4da024e9b14b")
+		(uuid "06866c30-f04e-40d7-851b-9f67baa21bc5")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c2c980c2-eb43-47ed-9e8b-be79b49ccc16")
+		(uuid "15e973c6-1f1f-437f-8af8-6480f89d5845")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "51f52c25-cc9d-4f9e-8324-d301880a9916")
+		(uuid "e601f3d6-92b6-4770-af98-b43a73311192")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -151,33 +151,6 @@
 	)
 	(fp_poly
 		(pts
-			(xy -2.29 -2.28) (xy -2.29 -2.997769) (xy -2.311033 -2.997769) (xy -2.311033 -3.3) (xy -2.571033 -3.3)
-			(xy -2.571033 -2.996996) (xy -2.595833 -2.997769) (xy -2.595833 -2.592571) (xy -3.002233 -2.592569)
-			(xy -2.997564 -2.28)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "f236837f-84cd-4256-a521-8057594735ed")
-	)
-	(fp_poly
-		(pts
-			(xy -2.29 2.290887) (xy -2.29 3) (xy -2.321071 3.00032) (xy -2.321071 3.297288) (xy -2.571071 3.298313)
-			(xy -2.571071 2.999495) (xy -2.595871 3.000268) (xy -2.595871 2.60507) (xy -3.002271 2.605068) (xy -3.002271 2.290268)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "3ee0d3dc-221e-4a9f-b2b9-92b5d8ff78cd")
-	)
-	(fp_poly
-		(pts
 			(xy 2.288441 -2.269823) (xy 2.290001 -3) (xy 2.31 -3) (xy 2.31 -3.29702) (xy 2.56 -3.298045) (xy 2.56 -2.999227)
 			(xy 2.5848 -3) (xy 2.5848 -2.594802) (xy 2.9912 -2.5948) (xy 2.9912 -2.28)
 		)
@@ -191,8 +164,9 @@
 	)
 	(fp_poly
 		(pts
-			(xy 2.29 2.287831) (xy 2.29 2.997222) (xy 2.3252 2.997222) (xy 2.3252 3.303832) (xy 2.5652 3.304816)
-			(xy 2.5652 2.996449) (xy 2.59 2.997222) (xy 2.59 2.592024) (xy 2.9964 2.592022) (xy 2.9964 2.287222)
+			(xy -3 -2.31) (xy -3 -2.28) (xy -2.29 -2.28) (xy -2.29 -2.997769) (xy -2.311033 -2.997769) (xy -2.311033 -3.3)
+			(xy -2.571033 -3.3) (xy -2.571033 -2.996996) (xy -2.595833 -2.997769) (xy -2.595833 -2.592571) (xy -3 -2.592568)
+			(xy -3 -2.57) (xy -3.3 -2.57) (xy -3.3 -2.31)
 		)
 		(stroke
 			(width 0)
@@ -200,7 +174,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "89e5e7d4-7acc-4fe8-8e01-0b290962d432")
+		(uuid "f236837f-84cd-4256-a521-8057594735ed")
 	)
 	(fp_poly
 		(pts
@@ -2762,6 +2736,13 @@
 		(keep_end_layers yes)
 		(thermal_bridge_angle 90)
 		(uuid "9ede367d-4f1e-4f8c-bb11-eb1db69a0404")
+	)
+	(pad "39" smd circle
+		(at -7.75 -0.85)
+		(size 0 0)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "26341a57-4059-4005-aaaa-c587adc90492")
 	)
 	(embedded_fonts no)
 	(model "/home/dan/dnt.kicad.libs/sources/LIB_VN9D5D20FNTR/VN9D5D20FNTR/3D/VN9D5D20FNTR.stp"
