@@ -221,7 +221,7 @@
 		(uuid "ae1c006c-ce81-42d8-b774-af97c47cf6ab")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Models/7461084_Download_STP_7461084_rev1.stp"
+	(model "${KICAD_DNT_LIBS_CUSTOM}/models/7461084_Download_STP_7461084_rev1.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -229,7 +229,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
