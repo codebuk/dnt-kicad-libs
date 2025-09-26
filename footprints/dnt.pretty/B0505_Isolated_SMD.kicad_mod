@@ -300,4 +300,15 @@
 		(uuid "59a828d4-9a6b-4d61-a476-d823637a7d11")
 	)
 	(embedded_fonts no)
+	(model "${KICAD_DNT_3DMODEL_DIR}/R1SE-0505-R--3DModel-STEP-269445.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

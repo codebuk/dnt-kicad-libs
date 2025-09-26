@@ -318,10 +318,9 @@
 		(uuid "6de44e93-285d-4c54-a436-4b074530f577")
 	)
 	(embedded_fonts no)
-	(model "/home/dan/dnt.kicad.libs/3d/DT15-12PC-B016.step"
-		(opacity 0.5400)
+	(model "${KICAD_DNT_3DMODEL_DIR}/DT15-12PC-B016.step"
 		(offset
-			(xyz 0 0 34.5)
+			(xyz 0 0 35)
 		)
 		(scale
 			(xyz 1 1 1)
