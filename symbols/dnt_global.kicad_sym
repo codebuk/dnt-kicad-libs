@@ -13621,7 +13621,7 @@
 				)
 			)
 		)
-		(property "Value" "Diode - Vishay Intertech  -60V 1A 600mV@1A MicroSMP(DO-219AD)  Schottky Diodes ROHS"
+		(property "Value" "Diode - Schotty V1P6-M3/H 60V 1A"
 			(at 0 2.54 0)
 			(effects
 				(font
