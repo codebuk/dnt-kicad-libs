@@ -6,19 +6,19 @@ HEADER;
 /* OPTION: using custom renumber hook */
 
 FILE_DESCRIPTION(
-/* description */ ('STEP AP214'),
+/* description */ ('STEP AP203'),
 /* implementation_level */ '2;1');
 
 FILE_NAME(
 /* name */ '2601-1112',
-/* time_stamp */ '2025-09-16T02:35:06+02:00',
+/* time_stamp */ '2025-09-16T02:35:05+02:00',
 /* author */ ('License CC BY-ND 4.0'),
 /* organization */ ('CADENAS'),
 /* preprocessor_version */ 'ST-DEVELOPER v19.3',
 /* originating_system */ 'PARTsolutions',
 /* authorisation */ '  ');
 
-FILE_SCHEMA (('AUTOMOTIVE_DESIGN {1 0 10303 214 3 1 1}'));
+FILE_SCHEMA (('CONFIG_CONTROL_DESIGN'));
 ENDSEC;
 
 DATA;
@@ -63230,16 +63230,17 @@ SI_UNIT(.MILLI.,.METRE.)
 );
 #62620=PRODUCT_DEFINITION_SHAPE('','',#62621);
 #62621=PRODUCT_DEFINITION('','',#62623,#62622);
-#62622=PRODUCT_DEFINITION_CONTEXT('',#62629,'design');
+#62622=DESIGN_CONTEXT('',#62629,'design');
 #62623=PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE('','',#62625,
  .NOT_KNOWN.);
 #62624=PRODUCT_RELATED_PRODUCT_CATEGORY('','',(#62625));
 #62625=PRODUCT('2601-1112','2601-1112','2601-1112',(#62627));
 #62626=PRODUCT_CATEGORY('','');
-#62627=PRODUCT_CONTEXT('',#62629,'mechanical');
+#62627=MECHANICAL_CONTEXT('',#62629,'mechanical');
 #62628=APPLICATION_PROTOCOL_DEFINITION('international standard',
-'automotive_design',2010,#62629);
+'config_control_design',2010,#62629);
 #62629=APPLICATION_CONTEXT(
-'core data for automotive mechanical design processes');
+'configuration controlled 3D designs of mechanical parts and assemblie
+s');
 ENDSEC;
 END-ISO-10303-21;
