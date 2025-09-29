@@ -27220,7 +27220,16 @@
 			)
 		)
 		(property "Description" "iNEMO inertial module with embedded Machine Learning Core: always-on 3D accelerometer and 3D gyroscope with digital output for industrial applications, LGA-14"
-			(at 1.27 5.08 0)
+			(at 0.508 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C2655101"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29039,7 +29048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724001388785664"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29059,6 +29068,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 0 4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2290"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37600,15 +37618,6 @@
 			)
 		)
 		(property "ki_keywords" "high-side power distribution switch"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "SOT?23*"
 			(at 0 0 0)
 			(effects
 				(font
