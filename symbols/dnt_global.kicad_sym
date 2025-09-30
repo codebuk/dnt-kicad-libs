@@ -35973,7 +35973,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "J4"
+		(property "Reference" "J"
 			(at -11.43 1.2701 0)
 			(effects
 				(font
@@ -35992,7 +35992,7 @@
 			)
 		)
 		(property "Footprint" "dnt:SAMTEC_FTSH-107-01-F-DV-K-Fix"
-			(at 0 0 0)
+			(at 0.762 -28.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36001,7 +36001,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf"
-			(at -8.89 -31.75 90)
+			(at -31.75 -28.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36010,34 +36010,7 @@
 			)
 		)
 		(property "Description" "ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Silkscreen" ""
-			(at 0 0 0)
+			(at 3.556 -32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36046,7 +36019,7 @@
 			)
 		)
 		(property "LCSC" "C5307809"
-			(at 0 0 0)
+			(at -0.254 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
