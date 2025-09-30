@@ -35991,7 +35991,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "dnt:SAMTEC_FTSH-107-01-F-DV-K-Fix"
+		(property "Footprint" "dnt:Conn_SAMTEC_FTSH-107-01-F-DV-K-Fix"
 			(at 0.762 -28.702 0)
 			(effects
 				(font
@@ -37583,6 +37583,15 @@
 		)
 		(property "Description" "1.5A 1.6V~5.5V 89mΩ Active High Load Switch Short-Circuit Protection(SCP) SC-70-6 Power Distribution Switches ROHS"
 			(at 1.016 -20.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2149796"
+			(at 0.508 9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)

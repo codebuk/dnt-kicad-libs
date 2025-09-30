@@ -35973,7 +35973,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "J4"
+		(property "Reference" "J"
 			(at -11.43 1.2701 0)
 			(effects
 				(font
@@ -35991,7 +35991,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "dnt:SAMTEC_FTSH-107-01-F-DV-K-Fix"
+		(property "Footprint" "dnt:Conn_SAMTEC_FTSH-107-01-F-DV-K-Fix"
 			(at 0.762 -28.702 0)
 			(effects
 				(font

@@ -1298,7 +1298,7 @@
 	)
 	(model "kicad-embed://FTSH-107-01-F-DV-K-P-TR.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 0.4)
 		)
 		(scale
 			(xyz 1 1 1)
