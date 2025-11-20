@@ -53,7 +53,7 @@
 			)
 		)
 	)
-	(attr exclude_from_pos_files exclude_from_bom)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard dnp)
 	(fp_line
 		(start -4.445 0.635)
 		(end -4.445 1.27)
@@ -74,45 +74,16 @@
 		(layer "F.SilkS")
 		(uuid "3ccf2711-f937-447e-ab27-5d2f133af5e1")
 	)
-	(fp_line
-		(start -6.75 -4.25)
-		(end -6.75 4.25)
+	(fp_rect
+		(start -6.38 -3.83)
+		(end 5.71 3.84)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "ff248d13-9f05-4ea2-9675-90a85548d656")
-	)
-	(fp_line
-		(start -6.75 4.25)
-		(end 6.25 4.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "1852906f-8e08-42bc-be2e-1fc43770a505")
-	)
-	(fp_line
-		(start 6.25 -4.25)
-		(end -6.75 -4.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "cbf0817e-de6b-4682-8ede-906fda004d43")
-	)
-	(fp_line
-		(start 6.25 4.25)
-		(end 6.25 -4.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "1feea2ec-aa03-4d1d-8bd1-1a1e67885731")
+		(uuid "3e427ff1-6c33-4b61-a246-979402cf39f6")
 	)
 	(fp_text user "KEEPOUT"
 		(at 0 0 0)
