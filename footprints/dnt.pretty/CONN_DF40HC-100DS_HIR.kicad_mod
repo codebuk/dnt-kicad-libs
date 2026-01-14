@@ -839,9 +839,9 @@
 		(uuid "416e5511-0eb0-449b-986b-9c4b070377bd")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_DNT_LIBS_CUSTOM}/models/DF40HC(3.0)-100DS-0.4V.stp"
+	(model "${KICAD_DNT_3DMODEL_DIR}/DF40HC(3.0)-100DS-0.4V.stp"
 		(offset
-			(xyz -0.217 0 1.49)
+			(xyz 0.283 0 1.49)
 		)
 		(scale
 			(xyz 1 1 1)
